@@ -11,7 +11,7 @@ We are currently making the main page using HTML and CSS.
 
 - [@JerryVSC](https://github.com/JerryVSC)
 - [@NachoTacos](https://github.com/NachoTacos)
-- [@Andres Rodriguez](hhttps://github.com/A-PhantomStar)
+- [@AndresRodriguez](hhttps://github.com/A-PhantomStar)
 - [@SergioBetancourt2203](https://github.com/SergioBetancourt2203)
 
 
