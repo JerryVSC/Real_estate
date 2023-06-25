@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate webpage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- css reference-->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body style="height:2000px">
+  
+  <header>
+    <!--Declaration from the nav bar and puting the logo-->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-success">
+        <a
+        style="padding-left: 30px;"
+        href="#"
+        class="navbar-brand mb-0 h1">
+        <img
+        clas="d-inline-block align-top"
+        src="images/logo.png" width="70" height="70"/>
+    </a>
+    <!--Responsive button for when the page is shrugged-->
+      <button 
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      class="navbar-toggler"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+
+      </span>
+    </button>
+    <!-- "Buttons" for the respective links (Home, agents, map, FAQ)-->
+      <div 
+      style="padding-left: 40px;" 
+      class="collapse navbar-collapse" 
+      id="navbarNav">
+      <font size="+2">
+      <ul class="navbar-nav" style="padding:15px;">
+        <li class="nav-item active">
+          <a href="#" class="nav-link active">
+            Home
+          </a>
+        
+        </li>
+      </ul>
+      </font>
+      <font size="+2">
+      <ul class="navbar-nav" style="padding:15px;">
+        <li class="nav-item active">
+          <a href="#" class="nav-link active">
+            Map
+          </a>
+        </li>
+      </ul>
+      </font>
+      <font size="+2">
+      <ul class="navbar-nav" style="padding:15px;">
+        <li class="nav-item active">
+          <a href="#" class="nav-link active">
+            Agents
+          </a>
+        </li>
+      </ul>
+    </font>
+      <font size="+2">
+      <ul class="navbar-nav" style="padding:15px;">
+        <li class="nav-item active">
+          <a href="#" class="nav-link active">
+            FAQ
+          </a>
+        </li>
+      </ul>
+      </font>
+      </div>
+      <!-- search bar with button-->
+      <form  class="d-flex" style="padding-right: 50px;">
+        <input type="text" class="form-control me-2" style="width: 500px;">
+        <button type="submit" class="btn btn-secondary">Search</button>
+      </form>
+
+    </nav>
+  </header>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
