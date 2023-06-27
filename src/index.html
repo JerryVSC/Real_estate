@@ -84,49 +84,51 @@
       </form>
     </nav>
   </header>
-
-  <!--Carousel code-->
-
-  <div id="featured-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#featured-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#featured-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#featured-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active c-item">
-        <img src="images/featured1.jpg" class="d-block w-100 c-img" alt="featured 1">
-        <div class="carousel-caption mt-4">
-          <p class="mt-5 fs-3 text-uppercase">The best location with the best neighbours</p>
-          <h1 class="display-1 fw-bolder text-capitalize">Beautiful house in el saltito</h1>
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img src="images/featured2.jpg" class="d-block w-100 c-img" alt="featured 2">
-        <div class="carousel-caption mt-4">
-          <p class="mt-5 fs-3 text-uppercase">The best place to have a family</p>
-          <h1 class="display-1 fw-bolder text-capitalize">Georgeous house in Rio Dorado</h1>
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img src="images/featured3.jpg" class="d-block w-100 c-img" alt="featured 3">
-        <div class="carousel-caption mt-4">
-          <p class="mt-5 fs-3 text-uppercase">The best location to avoid taxes</p>
-          <h1 class="display-1 fw-bolder text-capitalize">Beautiful house in la Ferreria</h1>
-        </div>
+  <section class="container" style="margin-top: 50px;">
+    <!--First card for property--> 
+  <div class="row">
+    <h2 class="text-center mb-4">Recommended Properties</h2>
+    <div class="col-lg-8"><div class="card mb-4">
+      <div id="imageContainer" class="card-img-top" style="background-image: url(property1.jpg)"></div>
+      <div class="card-body">
+        <h5 class="card-title">Property </h5>
+        <p class="card-text">Description of Property 1.</p>
+        <a href="#" class="btn btn-success">View Details</a>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#featured-carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#featured-carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    <div class="card lg-4">
+      <!--Animation for first card-->
+      <style>
+        #imageContainer {
+          width: 100%;
+          height: 300px; /* Adjust the height to match your image */
+          background-size: cover;
+          background-position: center;
+          animation: imageAnimation 15s linear infinite;
+        }
+        
+        @keyframes imageAnimation {
+          0% {
+            background-image: url(images/property1.jpg);
+          }
+          25% {
+            background-image: url(images/property2.jpg);
+          }
+          50% {
+            background-image: url(images/property3.jpg);
+          }
+          75% {
+            background-image: url(images/property4.jpg);
+          }
+          100% {
+            background-image: url(images/property5.jpg);
+          }
+        }
+        </style>
+  </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
