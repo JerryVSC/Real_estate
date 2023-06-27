@@ -1,4 +1,10 @@
-body{
-  align-content: center;
+.c-item{
+    height: 480px;
+    padding-top: 100px;
 }
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
 
+}
