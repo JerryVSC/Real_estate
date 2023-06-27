@@ -12,7 +12,7 @@ The goal of  the proyect is to build the main page pof the website using HTML an
 - [@AndresRodriguez](hhttps://github.com/A-PhantomStar)
 - [@SergioBetancourt2203](https://github.com/SergioBetancourt2203)
 - [@Eduxrdo09](https://github.com/Eduxrdo09)
-- [AntonioSilva00](https://github.com/AntonioSilva00)
+- [@AntonioSilva00](https://github.com/AntonioSilva00)
 
 
 
