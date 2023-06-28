@@ -28,7 +28,14 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+
+  @media screen and (max-width: 1350px) {
+    .dropdown {
+      display: none;
+    }
+  }
+
+
   a {
     color: rgb(255, 255, 255); /* Set the desired color, such as red */
     text-decoration: none; /* Remove underline if desired */
